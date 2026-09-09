@@ -18,7 +18,7 @@ if (!isset($_SESSION['chat'])) {
     $_SESSION['chat'] = [];
 }
 
-// RESET
+// RESET total
 if (isset($_POST['reset'])) {
     $_SESSION['chat'] = [];
     header("Location: " . $_SERVER['PHP_SELF']);
