@@ -2,6 +2,7 @@
 ini_set('display_errors', 0);
 error_reporting(E_ALL);
 
+// Require
 require __DIR__ . '/vendor/autoload.php';
 session_start();
 
