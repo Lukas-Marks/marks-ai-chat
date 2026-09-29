@@ -14,7 +14,7 @@ $open_ai_key = $env['OPENAI_API_KEY'];
 
 $open_ai = new OpenAi($open_ai_key);
 
-// cria históricoo
+// cria histórico
 if (!isset($_SESSION['chat'])) {
     $_SESSION['chat'] = [];
 }
